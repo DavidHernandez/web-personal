@@ -1,0 +1,48 @@
+# Site settings
+title: David Hernández
+description: 'Software development - Training - Consultancy'
+url: 'http://davidhernandez.info/'
+baseurl: ''
+# google_analytics: 'UA-XXXXXX-X'
+
+author:
+  name: 'David Hernández'
+  email: hello@davidhernandez.info
+  twitter_username: david_baltha
+  github_username:  DavidHernandez
+  linkedin_username:  davidhernandezruiz1
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+t:
+  en:
+    description: 'Software development - Training - Consultancy'
+    services: 'Services'
+    back: '<- Go back'
+  es:
+    description: 'Desarrollo de software - Training - Consultoría'
+    services: 'Servicios'
+    back: '<- Volver atrás'
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

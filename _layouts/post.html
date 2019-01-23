@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<article class="post-container post-container--single">
+  {% if page.lang == 'en' %}
+    <a href="{{ site.baseurl }}/#services" title="link to {{ site.title }} services" class="blog-button">{{ site.t.[page.lang].back }}</a>
+  {% else %}
+    <a href="{{ site.baseurl }}/es#services" title="link to {{ site.title }} services" class="blog-button">{{ site.t.[page.lang].back }}</a>
+  {% endif %}
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <section class="post">
+    {{ content }}
+  </section>
+
+  <ul class="language-selector">
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+    {% for post in posts %}
+      <li>
+        <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</article>

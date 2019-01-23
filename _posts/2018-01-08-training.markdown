@@ -1,0 +1,24 @@
+---
+title: "Training"
+categories:
+  - Training
+tags:
+  - Training
+lang: en
+ref: training
+permalink: /en/training/
+---
+
+Services for companies that need a kickstart for the juniors of the team, with the basic knowledges every developer should have.
+
+## The problem
+
+A lot of small and medium companies do not have the time or availability to give enough support to the junior developers they hire. Making their value production small and avoiding them to achieve their potential fast enough, causing the frustration of the team and the employee.
+
+## The proposal
+
+With individual pairing sessions with each developer and talks and workshops for all the juniors in the team, the minimum knowledge that do not a previous experience or a business knowledge will be teached to develop a quality work that adds value to the product.
+
+Instead of following a generic plan, a unique and customized path will be prepared for each member of the team, based on their previous knowledge, professional projection and team practices.
+
+Always turning around the best practices, we have identified a lot of topics that we believe every developer must know and can be applied independently of the technology used. Those practices are not limited to the technical side like automated testing or continuous integration, it also includes more generic stuff like user stories, agile methodologies or how to report an issue.

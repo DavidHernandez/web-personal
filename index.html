@@ -1,0 +1,19 @@
+---
+layout: default
+robots: noindex
+lang: en
+ref: index
+---
+<div class="main-post-list">
+  {% assign posts=site.posts | where:"lang", page.lang %}
+  <ol class="post-list">
+    {% for post in posts %}
+      <li>
+        <h2 class="post-list__post-title post-title"><a href="{{ site.baseurl }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></h2>
+        <p class="excerpt">{{ post.excerpt | strip_html }}&hellip;</p>
+        <hr class="post-list__divider">
+      </li>
+    {% endfor %}
+  </ol>
+  <hr class="post-list__divider">
+</div>
