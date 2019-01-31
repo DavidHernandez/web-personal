@@ -1,7 +1,7 @@
 # Site settings
 title: David Hernández
-url: 'http://davidhernandez.info/'
-baseurl: ''
+url: 'https://davidhernandez.info/'
+baseurl: 'https://davidhernandez.info'
 # google_analytics: 'UA-XXXXXX-X'
 
 author:
