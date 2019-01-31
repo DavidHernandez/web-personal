@@ -22,7 +22,7 @@ $(document).ready(function () {
   }
 
   pathname = window.location.pathname;
-  if (pathname !== '{{ site.baseurl }}/' && pathname !== '{{ site.baseurl }}/index.html' && pathname !== '{{ site.baseurl }}/es/') {
+  if (pathname !== '{{ site.baseurl }}/' && pathname !== '{{ site.baseurl }}/index.html' && pathname !== '{{ site.baseurl }}/es/' && pathname !== '/') {
     $('.panel-cover').addClass('panel-cover--collapsed')
   }
 
