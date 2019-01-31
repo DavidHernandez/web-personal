@@ -1,6 +1,5 @@
 # Site settings
 title: David Hernández
-description: 'Software development - Training - Consultancy'
 url: 'http://davidhernandez.info/'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
@@ -22,11 +21,11 @@ defaults:
 
 t:
   en:
-    description: 'Software development - Training - Consultancy'
+    description: 'Software development - Training - Agile'
     services: 'Services'
     back: '<- Go back'
   es:
-    description: 'Desarrollo de software - Training - Consultoría'
+    description: 'Desarrollo de software - Formación - Agile'
     services: 'Servicios'
     back: '<- Volver atrás'
 
